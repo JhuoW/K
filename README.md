@@ -23,7 +23,7 @@ In the line graph $G^\prime$, the number of additional edges $\gamma$ is fixed. 
 | 3          | 89.27    | 70.09       | 65.37      |
 | 4          | 84.10    | 65.54       | 62.88      |
 
-## Q9: Comparison between the Transformer-based model and our CGNN (performance and scalability)
+## Q8.3: Comparison between the Transformer-based model and our CGNN (performance and scalability)
 
 Although we reference paper [6] in our submission as a transformer-based digraph learning model, it is specifically designed for graph-level tasks, and its application to node-level tasks is non-trivial. Instead, DAGTransformer (Luo et al., NeurIPS 2023), which is also a transformer-based model, is well-suited for node classification tasks. In the following table, we compare the accuracy on AM-Photo, Snap-Patent, and Arxiv-Year datasets, we can find that CGNN consistently outperforms the Transformer-based model.
 
